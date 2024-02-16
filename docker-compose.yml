@@ -1,0 +1,26 @@
+services:
+  database:
+    container_name: postgresql_database
+    image: postgres:16.1
+    restart: unless-stopped
+    env_file:
+      - project.env
+
+  database-migrations:
+    image: flyway/flyway
+    env_file:
+      - project.env
+    depends_on:
+      - database
+    volumes:
+      - ./flyway/sql:/flyway/sql
+    command: -connectRetries=60 -baselineOnMigrate=true migrate    
+
+  ui:
+    build: ui
+    restart: unless-stopped
+    volumes:
+      - ./ui:/app
+    ports:
+      - 5173:5173
+    
