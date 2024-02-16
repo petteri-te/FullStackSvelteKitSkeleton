@@ -8,8 +8,7 @@
 6) start docker desktop (or make sure your docker engine is running)
 7) docker compose build up
 8) follow the instruction to fix the docker container 
-https://cloudomnia.sharepoint.com/:w:/r/sites/Fullstackwebdevelopmentfall2023/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B652d2951-3fcf-4554-b453-a7843c790084%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1708084447631&web=1
-
+   Added inline after these steps
 9) now delete all containers ( easy to do using desktop)
 10) run docker compose again (now the ui container will be fixed and working)
 11) open localhost:5173 using your browser
