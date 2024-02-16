@@ -1,9 +1,13 @@
 # Description
 This skeleton stems from the need enhance the Aalto univeristu course material to teach full stack web developers the basics of full stack development. There is a great course https://fitech101.aalto.fi/web-software-development-2-0/ that in the beginning of 2024 updated the old course material to include Svelte javascript framework. In order to teach my students different ways to build a full stack app I create them a skeleton for using SvelteKit for the client and server side and added a postgres database to it. Putting it all in docker containers. This skeleton is provided in this repo.
 
+A svelte project had already been created in order to create this skeleton (so no need to do npm create svelte@latest).
+Also the skeleton was create using svlete 5 preview. And we used to update that with npm install svelte@next to get the svelte 5 features. Even though this skeleton does not need Svelte 5. 
+No typescript was used or harmed creating this skeleton.
+
 # FullStackSvelteKitSkeleton
 
-1) unzip file
+1) download the material as a zip file from this repo and unzip the file
 2) cd ui 
 3) npm install
 4) npm install progress
