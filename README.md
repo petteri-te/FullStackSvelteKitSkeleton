@@ -5,7 +5,7 @@ A svelte project had already been created in order to create this skeleton (so n
 Also the skeleton was create using svlete 5 preview. And we used to update that with npm install svelte@next to get the svelte 5 features. Even though this skeleton does not need Svelte 5. 
 No typescript was used or harmed creating this skeleton.
 
-# FullStackSvelteKitSkeleton
+# Installing the skeleton into a running full stack app
 
 1) download the material as a zip file from this repo and unzip the file
 2) cd ui 
