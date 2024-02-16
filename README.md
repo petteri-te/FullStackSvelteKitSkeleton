@@ -8,7 +8,7 @@
 6) start docker desktop (or make sure your docker engine is running)
 7) docker compose build up
 8) follow the instruction to fix the docker container 
-   Added inline after these steps
+   (Added inline after these steps)
 9) now delete all containers ( easy to do using desktop)
 10) run docker compose again (now the ui container will be fixed and working)
 11) open localhost:5173 using your browser
