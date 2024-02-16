@@ -22,7 +22,7 @@ No typescript was used or harmed creating this skeleton.
 
 
 
-STEP 8) instruction copy pasted from the file
+# STEP 8) instruction copy pasted from the file
 Needed to get the docer ui container working
 
 
