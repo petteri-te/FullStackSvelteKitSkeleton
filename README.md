@@ -15,7 +15,7 @@ No typescript was used or harmed creating this skeleton.
 1) download the material as a zip file from this repo and unzip the file
 2) cd ui 
 3) npm install
-4) npm install progres (for progress database client)
+4) npm install postgres (for postgres database client)
 5) cd .. 
 6) start docker desktop (or make sure your docker engine is running)
 7) docker compose up --build
