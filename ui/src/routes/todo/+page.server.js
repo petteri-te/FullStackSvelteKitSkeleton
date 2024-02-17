@@ -11,7 +11,22 @@ const sql = postgres('postgres://username:password@database:5432/database');
 // for some reason teh todo: action is not working. Don't understand why
 // but this default actions catches all
 export const actions = {
-    default: async ({ request }) => {
+
+    delete: async ({ request }) => {
+        // Parse form data from the request
+        const form = await request.formData();
+        const id = form.get("id") ?? "";
+
+        const result = await sql`DELETE FROM todos WHERE id = (${id})`;
+
+        console.log("delete id", id);
+        return {
+            status: 200,
+            body: { message: "Task deleted"}
+        }
+    },
+
+    add: async ({ request }) => {
         try {
             // Parse form data from the request
             const form = await request.formData();
